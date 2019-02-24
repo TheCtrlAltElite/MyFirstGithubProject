@@ -30,15 +30,10 @@ public class Employee
       return hireDay;
    }
 
-   public void raiseSalary(double byPercent)
+   public void raiseSalary(double byDollarValue)
    {
       double raise = salary * byPercent / 100;
       salary += raise;
-   }
-   
-   public String toString()
-   {
-     return getName() + "\n" + getSalary() + "\n" + getHireDay();
    }
 
    private String name;
