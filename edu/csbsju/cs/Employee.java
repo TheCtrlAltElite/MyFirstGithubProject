@@ -35,6 +35,11 @@ public class Employee
       double raise = salary * byPercent / 100;
       salary += raise;
    }
+   
+   public String toString()
+   {
+     return getName() + "\n" + getSalary() + "\n" + getHireDay();
+   }
 
    private String name;
    private double salary;
