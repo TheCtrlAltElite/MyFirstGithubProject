@@ -10,6 +10,9 @@ public class Driver
       // because of the import statement, we don't have to use
       // edu.csbsju.cs.Employee here
       Employee harry = new Employee("Harry Hacker", 50000, 1989, 10, 1);
+      
+      //Raises employee's salary 10 percent.
+      harry.raiseSalary(10)
 
       // print out information about harry
       // use java.lang.System.out here
